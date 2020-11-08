@@ -121,6 +121,10 @@ button {
   margin-top: 30px;
   margin-bottom: 30px;
 }
+.titles {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
 .projects {
   /* Prevent vertical gaps */
   line-height: 0;
