@@ -1,1 +1,75 @@
-<h1>Hi!</h1>
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Mobile</title>
+    <link rel="icon" type="image/png" href="assets/images/icon.png"/>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.1/css/all.css" integrity="sha384-xxzQGERXS00kBmZW/6qxqJPyxW3UR0BPsL4c8ILaIWXva5kFi7TxkIIaMiKtqV1Q" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/core.css">
+    <script src="https://unpkg.com/feather-icons"></script>
+  </head>
+  <body>
+    <nav>
+      <div class="container h-100">
+        <div class="row h-100 align-items-center">
+          <div class="col-6 col-md-4">
+            <div class="logo" ondragstart="return false;" ondrop="return false;">
+              <img src="assets/images/logo.png">
+            </div>
+          </div>
+          <div class="col-6 col-md-8 text-right">
+            <div class="elipsis d-md-none">
+              <i id="OpenM" data-feather="menu"></i>
+
+              <script>
+                feather.replace()
+              </script>
+            </div>
+            <div>
+              <ul class="d-none d-md-block">
+                <a class="border-style" href="index.html"><li>Home</li></a>
+                <a class="border-style" href="#works"><li>Works</li></a>
+                <a class="border-style" href="#about"><li>About</li></a>
+                <a class="border-style" href="#contact"><li>Contact</li></a>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <header class="">
+      <div class="container h-100 h-img">
+        <div class="row h-100 align-items-center">
+          <div class="col text-center">
+            <h1>-<span class="txt-rotate" data-period="2000" data-rotate='[ "graphic design.", "motion graphic.", "web design."]'></span></h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+          </div>
+        </div>
+      </div>
+    </header>
+    <section id="works">
+      <div class="container h-100">
+        <div class="row h-100 alig-items-center">
+          <div class="projects">
+            <img src="assets/images/" alt="">
+          </div>
+        </div>
+      </div>
+    </section>
+    <div id="Desplegar" class="Responsive-M oculto text-center">
+      <ul class="d-md-block">
+        <span>menu</span>
+        <a href="index.html"><li>Home</li></a>
+        <a href="#works"><li>Works</li></a>
+        <a href="#about"><li>About</li></a>
+        <a href="#contact"><li>Contact</li></a>
+        <span><i data-feather="sun"></i><script>feather.replace()</script></span>
+      </ul>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="assets/scripts/script-m.js"></script>
+    <script src="assets/scripts/script-i.js"></script>
+  </body>
+</html>

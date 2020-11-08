@@ -1,0 +1,123 @@
+@font-face {
+  font-family: 'Titles';
+  src: url(../fonts/OpenSans-Light.ttf);
+}
+@font-face {
+  font-family: 'Texts';
+  src: url(../fonts/OpenSans-Regular.ttf);
+}
+body {
+  font-family: 'Texts';
+  letter-spacing: 3px;
+}
+h1,h2,h3 {
+  font-family: 'Titles';
+}
+.h-img {
+  background-image: linear-gradient(to right, #aad4e1, #e1d6aa);
+}
+header {
+  margin-top: 100px;
+  height: 450px;
+  color: #fff;
+}
+nav {
+  height: 100px;
+  background-color: #fff;
+  position: fixed;
+  width: 100%;
+  top: 0;
+}
+nav .elipsis {
+  font-size: 1.2em;
+}
+nav ul a {
+  color: #000;
+  margin-left: 20px;
+}
+nav ul a:hover {
+  color: #303030;
+  margin-left: 20px;
+}
+nav ul {
+  display: inline-block;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+nav ul li {
+  display: inline-block;
+  list-style: none;
+}
+.logo img {
+  width: 100%;
+  height: auto;
+}
+button {
+  padding-left: 35px;
+  padding-right: 35px;
+  height: 45px;
+  background-color: #fff;
+  color: #000;
+  font-family: 'Titles';
+  font-size: 1.2em;
+  border: 0;
+  border-radius: 6px;
+}
+.border-style {
+  text-decoration: none;
+  background-image: linear-gradient(#f7bdc8, #f7bdc8);
+  background-size: 100% 3px, 50% 2px;
+  background-position: 100% 100%, 0 100%;
+  background-repeat: no-repeat, no-repeat;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-bottom: 3px;
+  transition: 0.2s ease-in-out;
+}
+.border-style:hover {
+  background-size: 100% 6px, 100% 1px;
+  padding-bottom: 0;
+}
+.Responsive-M {
+  transition: all .2s;
+  visibility: visible;
+  opacity: 1;
+  position: absolute;
+  width: 70%;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  padding-top: 40px;
+  background-color: #000;
+  color: #fff;
+}
+.Responsive-M a {
+  color: #fff;
+}
+.Responsive-M ul {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+.Responsive-M ul span {
+  color: #707070;
+}
+.Responsive-M ul li {
+  margin-left: 80px;
+  margin-right: 80px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  list-style: none;
+  border-bottom: 2px solid #f7bdc8;
+}
+.oculto {
+  visibility: hidden;
+  opacity: 0;
+}
+@media only screen and (min-width: 960px) {
+  .logo img {
+    width: 70%;
+    height: auto;
+  }
+}
