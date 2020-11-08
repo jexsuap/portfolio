@@ -121,7 +121,7 @@ button {
   margin-top: 30px;
   margin-bottom: 30px;
 }
-.projects {
+.projectss {
   /* Prevent vertical gaps */
   line-height: 0;
   -webkit-column-count: 3;
@@ -132,7 +132,7 @@ button {
   column-gap:           10px;
   margin-top: 30px;
 }
-.projects img {
+.projectss img {
   /* Just in case there are inline attributes */
   width: 100% !important;
   height: auto !important;
@@ -140,14 +140,14 @@ button {
   padding-bottom: 10px;
 }
 @media (max-width: 800px) {
-  .projects {
+  .projectss {
   -moz-column-count:    2;
   -webkit-column-count: 2;
   column-count:         2;
  }
 }
 @media (max-width: 400px) {
-  .projects {
+  .projectss {
   -moz-column-count:    1;
   -webkit-column-count: 1;
   column-count:         1;
