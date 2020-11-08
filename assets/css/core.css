@@ -27,6 +27,7 @@ nav {
   position: fixed;
   width: 100%;
   top: 0;
+  z-index: 999;
 }
 nav .elipsis {
   font-size: 1.2em;
@@ -83,7 +84,7 @@ button {
   transition: all .2s;
   visibility: visible;
   opacity: 1;
-  position: absolute;
+  position: fixed;
   width: 70%;
   top: 0;
   left: 0;
@@ -91,6 +92,7 @@ button {
   padding-top: 40px;
   background-color: #000;
   color: #fff;
+  z-index: 999;
 }
 .Responsive-M a {
   color: #fff;
@@ -114,6 +116,42 @@ button {
 .oculto {
   visibility: hidden;
   opacity: 0;
+}
+#works {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.projects {
+  /* Prevent vertical gaps */
+  line-height: 0;
+  -webkit-column-count: 3;
+  -webkit-column-gap:   10px;
+  -moz-column-count:    3;
+  -moz-column-gap:      10px;
+  column-count:         3;
+  column-gap:           10px;
+  margin-top: 30px;
+}
+.projects img {
+  /* Just in case there are inline attributes */
+  width: 100% !important;
+  height: auto !important;
+  padding: auto;
+  padding-bottom: 10px;
+}
+@media (max-width: 800px) {
+  .projects {
+  -moz-column-count:    2;
+  -webkit-column-count: 2;
+  column-count:         2;
+ }
+}
+@media (max-width: 400px) {
+  .projects {
+  -moz-column-count:    1;
+  -webkit-column-count: 1;
+  column-count:         1;
+ }
 }
 @media only screen and (min-width: 960px) {
   .logo img {
