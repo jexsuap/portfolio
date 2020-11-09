@@ -79,6 +79,23 @@ button {
   padding-bottom: 3px;
   transition: 0.2s ease-in-out;
 }
+.full-border {
+  padding: 1rem;
+  max-height: 277.5px;
+  position: relative;
+  background: linear-gradient(to right, #f7bdc8, #aad4e1);
+  padding: 6px;
+  transition: 0.4s;
+  border-radius: 0 !important;
+  object-fit: cover;
+  object-position: center;
+}
+.full-border:hover {
+  padding: 1rem;
+  position: relative;
+  background: linear-gradient(to right, #f7bdc8, #aad4e1);
+  padding: 10px;
+}
 .border-style:hover {
   background-size: 100% 6px, 100% 1px;
   padding-bottom: 0;
