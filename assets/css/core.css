@@ -289,6 +289,9 @@ textarea:focus {
   width: 100%;
   margin-bottom: 10px;
 }
+.cursor-none, span, p, #text {
+  cursor: default;
+}
 @media only screen and (min-width: 960px) {
   .logo img {
     width: 70%;
