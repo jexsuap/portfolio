@@ -19,6 +19,9 @@ h1,h2,h3 {
 .h-img {
   background-image: linear-gradient(to right, #aad4e1, #e1d6aa);
 }
+.title-size {
+  font-size: 1.4em;
+}
 header {
   margin-top: 100px;
   height: 450px;
@@ -316,6 +319,9 @@ textarea:focus {
   .logo img {
     width: 70%;
     height: auto;
+  }
+  .title-size {
+    font-size: 2em;
   }
   .project-logo {
     height: auto;
